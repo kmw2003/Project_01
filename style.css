@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    color: #292929;
+    font-family: "Malgun Gothic", sans-serif;
+}
+
+main {
+    width: 92%;
+    max-width: 440px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+#stage {
+    position: relative;
+    display: grid;
+    margin-top: 76px;
+}
+#message {
+    position: absolute;
+    top: -58px;
+    width: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    animation: floating 3s ease-in-out infinite;
+}
+
+#portrait {
+    position: relative;
+    grid-area: 1 / 1;
+    align-self: start;
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
